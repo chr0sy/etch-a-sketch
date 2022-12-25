@@ -1,0 +1,9 @@
+#container {
+    display: flex;
+}
+
+
+.square {
+    flex: 1;
+    background-color: forestgreen;
+}
