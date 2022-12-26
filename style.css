@@ -1,9 +1,22 @@
-#container {
+* {
+    box-sizing: border-box;
+}
+
+.container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
-.square {
-    flex: 1;
-    background-color: forestgreen;
+#sketch-container {
+    display: grid;
+    width: 960px;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.square-row {
+
 }
